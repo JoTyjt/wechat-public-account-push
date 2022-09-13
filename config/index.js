@@ -4,16 +4,16 @@ export const config = {
      */
 
     // 公众号APP_ID
-    APP_ID: "wx3face97ba22ef807",
+    APP_ID: "wx571ced28730d4f8b",
 
     // 公众号APP_SECRET
-    APP_SECRET: "6c12731cad8d4d73ab22be937e6a874e",
+    APP_SECRET: "4f80554c33c60aeac2d82878484b9daa",
 
     // 模板消息id
-    TEMPLATE_ID: "_t0izGkSY6lJ-95vzw79KnTnlu3eeU9eE84Trwcc0Bk",
+    TEMPLATE_ID: "hE2HJjUs4hqnocKMm8LP6l6KBS2rYPkxVRJIr34nCXM",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "_t0izGkSY6lJ-95vzw79KnTnlu3eeU9eE84Trwcc0Bk",
+    CALLBACK_TEMPLATE_ID: "hE2HJjUs4hqnocKMm8LP6l6KBS2rYPkxVRJIr34nCXM",
 
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
     // [{
@@ -29,7 +29,7 @@ export const config = {
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
-      {name: '自己',id: "og7Qm6sGNLutQv8J62UdPPSyi6_Q"}, 
+      {name: '自己',id: "oWdzd6i0Ufj6mCSt_A47QT3CAwg8"}, 
     ],
      
     /**
@@ -39,9 +39,9 @@ export const config = {
     /** 天气相关 */
 
     // 所在省份
-    PROVINCE: "陕西",
+    PROVINCE: "河南",
     // 所在城市
-    CITY: "西安",
+    CITY: "鹤壁",
 
     /** 重要节日相关 */
 
@@ -50,22 +50,20 @@ export const config = {
     // 生日时，name填写想要展示的名字，你可以填“美丽可爱亲亲老婆”
     // 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
     FESTIVALS: [
-      {"type": "生日", "name": "老婆", "year": "1996", "date": "01-01"},
-      {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "01-04"},
-      {"type": "生日", "name": "李四", "year": "1996", "date": "08-29"},
-      {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "08-29"},
+      {"type": "生日", "name": "老婆", "year": "1995", "date": "05-12"},
+      {"type": "节日", "name": "结婚纪念日", "year": "2022", "date": "03-31"},
     ],
     // 限制重要节日的展示条目, 需要填写数字; 
     // 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
     // 如果为0, 则默认展示全部
-    FESTIVALS_LIMIT: 3,
+    FESTIVALS_LIMIT: 0,
 
     /** 日期相关 */
 
     // 在一起的日子，格式同上
-    LOVE_DATE: "2021-10-17",
+    LOVE_DATE: "2020-10-12",
     // 结婚纪念日
-    MARRY_DATE: "2020-01-04",
+    MARRY_DATE: "2022-03-31",
 
 
     /** 每日一言 */
